@@ -3,6 +3,10 @@ Resultado: mostra infromações sobre o pokemos:
     * Tipo
     * Local
     * Poder
+LINK: https://pokedex10pokemons.vercel.app/
+<details>
+  <summary>COD base para ojeto do data.css</summary>
+
 
 
 ```html
@@ -251,6 +255,12 @@ Resultado: mostra infromações sobre o pokemos:
         </section>
 
 ```
+</details>
+
+
+<details>
+<summary>Excercicios de exemplo</summary>
+
 
 Exercico:
 
@@ -266,3 +276,6 @@ Implementar uma funcionalidade de busca: Adicione um campo de entrada onde o usu
 Estilizar a página: Use CSS para deixar a apresentação dos filmes mais bonita, como adicionar bordas, mudar cores de fundo e fontes.
 
 Isso vai te ajudar a praticar o que aprendeu na aula e ainda te dá a chance de ser criativo! Boa sorte! 🚀✨
+
+
+</details>
