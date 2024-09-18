@@ -87,7 +87,15 @@ function mostrar() {
         </div>
         `
     }
+    let ConfirmMenssage = window.confirm("achando, logo aparecerá na tela!!");
 
-    section.innerHTML = result_Search;
+    if (ConfirmMenssage) {
+        setTimeout(() => {
+            section.innerHTML = result_Search;
+        }, 1000);
+    } else {
+        alert("Você negou a aprarição");
+    }
+    
 
 }
