@@ -61,7 +61,15 @@ function pesquisar() {
         return
     }
 
-    section.innerHTML = result_Search;
+    let ConfirmMenssage = window.confirm("achando, logo aparecerá na tela!!");
+
+    if (ConfirmMenssage) {
+        setTimeout(() => {
+            section.innerHTML = result_Search;
+        }, 1000);
+    } else {
+        alert("Você negou a aprarição");
+    }
 }
 
 function mostrar() {
@@ -87,15 +95,5 @@ function mostrar() {
         </div>
         `
     }
-    let ConfirmMenssage = window.confirm("achando, logo aparecerá na tela!!");
-
-    if (ConfirmMenssage) {
-        setTimeout(() => {
-            section.innerHTML = result_Search;
-        }, 1000);
-    } else {
-        alert("Você negou a aprarição");
-    }
-    
-
+    section.innerHTML = result_Search;
 }
